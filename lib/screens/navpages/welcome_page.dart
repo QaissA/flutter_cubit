@@ -87,7 +87,7 @@ class _WelcomePageState extends State<WelcomePage>
                     Column(
                       children: List.generate(3, (indexDots) {
                         return Container(
-                          margin: EdgeInsets.only(
+                          margin: const EdgeInsets.only(
                             bottom: 2,
                           ),
                           width: 8,
